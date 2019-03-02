@@ -2,7 +2,6 @@ div.container{
     margin-top : 20px;
 }
 
-
 div.ad-title{
     padding: 2em;
     background-size : cover;
@@ -14,6 +13,12 @@ div.ad-title h1, div.ad-title p {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+div.ad-title .btn {
+    margin-top: 2em;
+    font-size : 1.5em;
+    line-height : 1.5em;
+}
+
 div.carousel-caption {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
@@ -21,7 +26,6 @@ div.carousel-caption {
 div.card-body h4.card-title a:hover, a.cool:hover {
     text-decoration: none;
 }
-
 
 .avatar {
     max-width : 128px;
@@ -35,11 +39,28 @@ div.card-body h4.card-title a:hover, a.cool:hover {
 }
 
 .avatar-mini  {
-    max-width : 30px;
-    max-height: 30px;
+    max-width : 35px;
+    max-height: 35px;
+}
+
+.avatar-micro  {
+    max-width : 25px;
+    max-height: 25px;
 }
 
 .datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
     color: firebrick !important;
     background : #e8e8e8 !important;
+}
+
+span.rating i {
+    color: #efb629;
+}
+
+.alert a {
+    text-decoration : none ;
+}
+
+.alert .btn {
+    color :white;
 }

@@ -21,7 +21,10 @@
                 {% endif %}
             </div>
         </div>
-        {{user.description | raw}}
+        <div class="row mt-3">
+            {{user.description | raw}}
+        </div>
+        
         <hr>
         <h2>Les annonces de {{user.fullName}}</h2>
 
