@@ -48,9 +48,18 @@ div.card-body h4.card-title a:hover, a.cool:hover {
     max-height: 25px;
 }
 
+.datepicker table tr td {
+    color: #ecf0f1 !important;
+    background: #18bc9c;
+}
+
+.datepicker table tr td:hover {
+    background: #08c !important;
+}
+
 .datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
-    color: firebrick !important;
-    background : #e8e8e8 !important;
+    color: #dee2e6 !important;
+    background: #e74c3c !important;
 }
 
 span.rating i {
