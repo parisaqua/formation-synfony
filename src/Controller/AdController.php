@@ -23,7 +23,6 @@ class AdController extends AbstractController
      */
     public function index(AdRepository $repo, SessionInterface $session)
     {
-        dump($session);
         
         $ads = $repo->findAll();
 
